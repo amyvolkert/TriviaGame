@@ -1,0 +1,51 @@
+body {
+	
+}
+
+.container {
+  margin: auto;
+  max-width: 970px;
+  background: url("../images/chicago-blackhawks-alternate-logo.jpg");
+  background-size: 100%;
+}
+
+
+h1 {
+	text-align: center;
+	color: #CE1126;
+	font-size: 46px;
+	margin-top: 22px;
+}
+
+h2 {
+	margin-top: 500px;
+	padding-left: 30px;
+	font-size: 28px;
+	color: #fff8dc;
+	letter-spacing: 1px;
+}
+
+#button {
+
+}
+
+.btn {
+	margin-bottom: 10px;
+	margin-top: 500px;
+	background-color: #F68428;
+	color: black;
+	font-weight: 800;
+	font-size: 24px;
+	border-color: black;
+	margin-left: 150px;
+
+}
+
+
+
+
+
+
+
+
+
