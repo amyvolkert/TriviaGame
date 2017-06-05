@@ -4,27 +4,32 @@ $(document).ready(function() {
 	// Welcome and start button
 	$("#button-start").click(function(){
 		$("#first-page").hide();
-		$("#question-pages").show();
 	});
 	
 	// Objects that hold each stem,
 	// correct answer, and 3 distractors
 
-	var questionOne= {
- 		stem: "In 2007, which player was the overall top draft pick?",
- 		distractorOne: "Duncan Keith",
- 		distractorTwo: "Jonathan Toews",
- 		answer: "Patrick Kane",
-		distractorThree: "Marcus Kruger",
- 	}
+	
+		// var questionOne= {
+ 	// 	stem: "In 2007, which player was the overall top draft pick?",
+ 	// 	distractorOne: "Duncan Keith",
+ 	// 	distractorTwo: "Jonathan Toews",
+ 	// 	answer: "Patrick Kane",
+		// distractorThree: "Marcus Kruger",
+ 	// }
 
- 	// This function displays the question and 
- 		function question() {
- 			$("#stem").html(stem);
- 			$("#distractorOne").html(distractorOne);
- 			$("#distractorTwo").html(distractorTwo);
- 		}
- 		
+ 	// // This function displays the question 
+ 	// 	function question() {
+ 	// 		$("#stem").html(questionOne.stem);
+ 	// 		$("#distractorOne").html(distractorOne);
+ 	// 		$("#distractorTwo").html(distractorTwo);
+ 	// 		$("#answer").html(answer;
+ 	// 		$("#distratorFour").html(distratorFour);
+
+ 	// 	};
+ 	// 	question();
+ 	// 	console.log(question);
+ 	
  	// var questionTwo = {
  	// 	stem: "Who was injured during the 2015 regular season but returned for the post season, and the Stanley Cup?",
  	// 	distractorOne: "Duncan Keith",

@@ -62,8 +62,10 @@ h2 {
 
 #show-number {
 	text-align: center;
-	color: #fff8dc;
+	color: black;
 	font-size: 40px;
+	align-items: center;
+
 }
 
 
