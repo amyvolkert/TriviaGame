@@ -1,32 +1,51 @@
-body {
-	
-}
-
 .container {
   margin: auto;
   max-width: 970px;
-  background: url("../images/chicago-blackhawks-alternate-logo.jpg");
-  background-size: 100%;
+ }
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 22px;
 }
 
+.blackhawks {
+	margin: auto;
+	position: relative;
+	z-index: 0;
+}
 
 h1 {
-	text-align: center;
 	color: #CE1126;
 	font-size: 46px;
-	margin-top: 22px;
+	position: absolute;
+	top: 14px;
+	right: 18px;
 }
 
 h2 {
-	margin-top: 500px;
-	padding-left: 30px;
+	padding-left: 25px;
 	font-size: 28px;
 	color: #fff8dc;
 	letter-spacing: 1px;
+	position: absolute;
+	top: 85px;
 }
 
-#button {
+#button-start {
+	background-color: #CE1126; 
+	border: none;
+	font-size: 40px;
+	padding: 0 25px 0 25px;
+	border-radius: 16px;
+	height: 50px;
+	cursor: pointer;
+	margin-left: 45px;
+	position: absolute;
+	bottom: 40px;
+	top: 160px;
+}
 
+#button-start:hover {
+	background-color: grey;
 }
 
 .btn {
@@ -41,6 +60,11 @@ h2 {
 
 }
 
+#show-number {
+	text-align: center;
+	color: #fff8dc;
+	font-size: 40px;
+}
 
 
 
